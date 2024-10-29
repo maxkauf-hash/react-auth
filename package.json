@@ -1,0 +1,32 @@
+{
+  "name": "@maxkauf-hash/react-auth",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "rollup": "^4.24.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "rollup-plugin-dts": "^6.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/maxkauf-hash"
+  }
+}
